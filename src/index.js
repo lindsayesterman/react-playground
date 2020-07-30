@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import AppLang from './lang-context/AppLang.js';
+import App  from './App';
 
 
 ReactDOM.render(
-        <AppLang />,
+        <App/>,
 document.getElementById('root')
 );
